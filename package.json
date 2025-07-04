@@ -1,0 +1,27 @@
+{
+  "name": "@istani/queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Istani/persistent-better-queue.git"
+  },
+  "keywords": [],
+  "author": "Sascha Kaufmann (sascha.u.kaufmann@googlemail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Istani/persistent-better-queue/issues"
+  },
+  "homepage": "https://github.com/Istani/persistent-better-queue#readme",
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "better-queue": "^3.8.12",
+    "prisma": "^6.10.1",
+    "sqlite3": "^5.1.7"
+  }
+}
